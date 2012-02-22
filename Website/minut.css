@@ -1,0 +1,59 @@
+﻿#content dd
+{
+display:block;
+ float:left;
+height:80px;
+text-align:center;
+width:25em;
+margin:0;
+ 
+
+}
+#content dl 
+{
+	
+	text-align:center;
+	margin:0;
+	height:20px;
+	width:50em;
+	font-weight:bold;
+	 color:'yellow';
+		
+
+}
+#content dt
+{
+	font-size:x-large;
+	display:block;
+	width:33.5em;
+	color:#FFFF00;
+	position:relative;
+ 	
+}
+ 
+
+#content a
+{
+
+text-align:center;
+
+width:25em;
+height:0;
+
+
+}
+#content p
+{
+ color:silver;
+font-size:25px;
+ 
+font-style:normal;
+
+}
+#content a:link
+{
+	
+	text-decoration:none;
+	
+
+}

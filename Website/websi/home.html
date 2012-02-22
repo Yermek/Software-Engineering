@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ 
+<head>
+<script type="text/javascript">
+function on(x)
+{
+x.style.backgroundColor="orange";
+}
+function out(x)
+{
+x.style.backgroundColor= "white";
+}
+function showlayer(layer){
+ var myLayer = document.getElementById(layer);
+ if(myLayer.style.display=="none" || myLayer.style.display==""){
+ myLayer.style.display="block";
+ } else { 
+myLayer.style.display="none";
+ }
+ }
+</script>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Home</title>
+ <link rel="stylesheet"  type="text/css" href="style.css">
+  <link rel="stylesheet"  type="text/css" href="sub-menu.css">
+
+<style type="text/css">
+#content dd
+{
+display:block;
+ float:left;
+height:30px;
+text-align:center;
+width:25em;
+margin:0;
+ 
+
+}
+#content dl 
+{
+	
+	text-align:center;
+	margin:0;
+	height:	10px;
+	width:50em;
+	font-weight:bold;
+		
+
+}
+ 
+
+#content a
+{
+
+text-align:center;
+
+width:25em;
+height:0;
+
+
+}
+#content p
+{
+ color:silver;
+font-size:25px;
+text-align:center;
+font-style:normal;
+font-weight:bold;
+}
+ 
+ #content h1
+ {
+	text-align:center;
+}
+
+</style>
+</head>
+
+<body background="drag_dark_1280x1024.jpg" >
+
+
+<div id="container">
+
+<div  id="head" style=" text-align:center"><img src="logo.png" width="245" />
+
+</div>
+<div id="Menue">
+ <ul>
+ 	<li><a href="#" onmouseover="on(this)" onmouseout="out(this)"  >Home</a></li>
+	<li><a href="minutes.html" onmouseover="on(this)" onmouseout="out(this)">Minutes</a></li>
+	<li><a href="plan.html" onmouseover="on(this)" onmouseout="out(this)">Plans</a></li>
+	<li ><a href="about.html" onmouseover="on(this)" onmouseout="out(this)" onclick="javascript:showlayer('sm_1')">About</a></li> 
+<ul class="submenu" id="sm_1">
+ 		<li><a href="p1.html">Profile</a></li>
+ 		<li><a href="p2.hmtl">Inbox </a></li>
+ 		<li><a href="p3.hmtl">Log-out</a></li>
+ 	</ul>
+ </ul>
+</div>
+<div id="content" style="color:yellow;">
+ <h1>Course:</h1>
+ <p> Software Engineering (G6046) 2012</p> 
+ <p> Level 2</p> 
+ <p> 18 credits</p>
+  <h1>Tutour:</h1>
+ <p>Dr Martin Berger</p> 
+ <h1> Staff members:</h1>
+ <dl>
+ 	   <dd><a><p>Ali Al-Boainain </p></a></dd> 
+ 	   <dd><a><p>Ash Amarnath</p></a></dd> 
+	   <dd><a><p>Simon Baker</p></a></dd> 	 
+	   <dd><a><p>Jamie Stamp</p></a> </dd> 
+	   <dd><a><p>Thomas Greening</p></a></dd> 	 
+	   <dd><a><p>Mohammed Alhawaj</p></a></dd>  
+ 	  <dd><a><p>Radwan Sulaimani </p></a></dd>	 
+ 	  <dd><a><p>Yermek Abdramanov</p></a></dd>  
+
+	</dl>
+ 		
+  </div>
+ 		
+
+<div id="footer" style="">Copyright © 2012</div>
+
+</div>
+
+</body>
+
+</html>

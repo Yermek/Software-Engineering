@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ 
+<head>
+<script type="text/javascript">
+function on(x)
+{
+x.style.backgroundColor="orange";
+}
+function out(x)
+{
+x.style.backgroundColor="white";
+}
+function showlayer(layer){
+ var myLayer = document.getElementById(layer);
+ if(myLayer.style.display=="none" || myLayer.style.display==""){
+ myLayer.style.display="block";
+ } else { 
+myLayer.style.display="none";
+ }
+ }
+</script>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Plan</title>
+ <link rel="stylesheet"  type="text/css" href="style.css">
+  <link rel="stylesheet"  type="text/css" href="sub-menu.css">
+
+<style type="text/css">
+
+</style>
+</head>
+
+<body background="drag_dark_1280x1024.jpg" >
+
+
+<div id="container">
+
+<div  id="head" style=" text-align:center"><img src="logo.png" width="245" />
+
+</div>
+
+<div id="Menue">
+ <ul>
+ 	<li><a href="home.html" onmouseover="on(this)" onmouseout="out(this)"  >Home</a></li>
+	<li><a href="minutes.html" onmouseover="on(this)" onmouseout="out(this)">Minutes</a></li>
+	<li><a href="#plan" onmouseover="on(this)" onmouseout="out(this)">Plans</a></li><li ><a href="about.html" onmouseover="on(this)" onmouseout="out(this)">About</a></li> 
+<ul class="submenu" id="sm_1">
+ 		<li><a href="p1.html">Profile</a></li>
+ 		<li><a href="p2.hmtl">Inbox </a></li>
+ 		<li><a href="p3.hmtl">Log-out</a></li>
+ 	</ul>
+ </ul>
+</div>
+<div id="content">
+ 
+</div>
+
+<div id="footer" style="">Copyright © 2012</div>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+﻿ 
+#container
+{
+	  width:50em;
+	  height: 30em;
+	  margin-top: 5%;
+	  margin-left:25%;
+	  text-align:center;
+
+}
+#head
+{
+	text-align:center;
+}
+#head h1
+{
+
+	color:#FFFFFF;
+}
+#Menue
+{
+	height: 49px;  
+	width: 33em; 
+	font-size:x-large; 
+	color:#FF0;
+}
+a
+{
+	display:block;
+	width:200px;
+	background-color:white;
+}
+
+#Menue ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+width:50em; 
+}
+#Menue li
+{
+float:left;
+text-align:center;
+}
+#content{
+	border:thick yellow double ;
+	height:600px; 
+	width:50em;
+	left: 0px; 
+	top: 0px;
+}
+#footer{
+	
+	text-align: center; 
+	color:#FFFFCC; 
+	left: 0px; 
+	top: 51px;
+	width:50em;
+}
+
+ 

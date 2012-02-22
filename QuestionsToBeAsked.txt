@@ -1,0 +1,2 @@
+When should martial arts be checked (every move of an ant for its surrounding area?) - do before move?
+If an ant tries to pick up food when it is already holding food, should it fail or just not pick up the food
